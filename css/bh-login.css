@@ -1,0 +1,30 @@
+
+                    body {
+                 background: #fff;
+            }
+
+            .login h1 a {
+                 background-image: url('/images/bh-login-logo.png');
+                 padding-bottom: 0px;
+                 width: 100%;
+                 background-size: 100%;
+            }
+
+            #wp-submit {
+                 background-color: #3668B4;
+                 color: #fff;
+                 border: none;
+                 border-radius: 0px; 
+            }
+
+            #loginform {
+                 background: #fff;
+                 border: 3px solid #fff;
+                 box-shadow: none;
+                 padding: 0px!important;
+            }
+
+            .login label {
+                 color: #3668B4;
+                 font-size: 17px;
+            }

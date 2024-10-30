@@ -1,0 +1,149 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+
+.social-icons { padding: 0px; text-decoration: none;}
+
+.bh-social-icon-table tr {
+    padding: 5px!important;
+    background: #F9F9F9;
+    border: 1px solid gainsboro;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.social-icons:hover {
+  opacity: 0.5;
+}
+
+.bh-social-option {
+  display: inline-block;
+  padding: 2%;
+}
+
+.bh-social-option.small {
+  width: 45%;
+
+}
+
+.bh-social-option.medium {
+  width: 33%;
+
+}
+
+.bh-social-option.large {
+  width: 50%;
+
+}
+
+@media screen 
+  and (min-device-width: 200px) 
+  and (max-device-width: 1249px) { 
+    .bh-social-option {
+      display: none;
+    }
+}
+
+
+
+.bh-social-admin-wrapper {
+  padding: 10px;
+}
+
+.bh-social-icon-field {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.social-icon-add {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.social-icon-add-remove.add {
+    margin-right: 10px;
+}
+
+.social-icon-remove {
+    text-decoration: none;
+    font-size: 15px!important;
+    margin-top: 7px;
+    color: red;
+}
+
+a.social-icon-add {
+    margin: 10px 13px 0 0;
+}
+
+.bh-icon {
+    text-decoration: none;
+}
+
+.bh_social_media_wrapper a {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.bh-social-icon-table td {
+  display: block;
+  float: left;
+}
+
+.bh-social-icon-table tr td:first-child {
+    width: 34%;
+    padding: 5px 0 0 1%;
+}
+
+.bh-social-icon-table tr td:nth-child(2) {
+    width: 25%;
+    padding: 5px 1% 0 1%;
+}
+
+.bh-social-icon-table tr td:nth-child(3) {
+    width: 25%;
+    padding: 5px 1% 0 1%;
+}
+
+.bh-social-icon-table tr td:nth-child(4) {
+    width: 8%;
+    padding: 25px 5px 7px 0;
+    min-height: 23px;
+}
+
+.bh-social-icon-table tr td:nth-child(5) {
+    width: 100%;
+    padding: 5px 0 0 0%;
+}
+
+input.bh-social-icon-field.url {
+    float: right;
+    max-width: 201px;
+}
+
+.bh-social-url {
+    float: left;
+    padding-top: 10px;
+}
+
+.bh-social-icon-table tbody.ui-sortable td {
+    cursor: move;
+}
+
+.bh-social-like {
+    background: rgba(255, 255, 0, 0.29);
+    padding: 16px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.bh-social-like h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.bh-social-like a {
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
